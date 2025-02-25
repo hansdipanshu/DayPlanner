@@ -1,0 +1,80 @@
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.planner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.time-slot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.time-slot input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.time-slot button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.time-slot button:hover {
+  background-color: #0056b3;
+}
+
+.saved-plans {
+  margin-top: 30px;
+}
+
+.saved-plans h2 {
+  margin-bottom: 10px;
+}
+
+#plans-list {
+  list-style-type: none;
+}
+
+#plans-list li {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+</style>
